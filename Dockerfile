@@ -4,4 +4,5 @@
 ############################################################
 FROM alpine:latest
 RUN apk update && apk add -y tcpdump
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/usr/sbin/tcpdump"]
+#ENTRYPOINT ["/bin/sh"]
