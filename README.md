@@ -11,4 +11,5 @@ docker run --net=host -it adamoss/docker-tcpdump -n "tcp or icmp or arp" -s 500
 ```
 
 good examples can be found at http://www.rationallyparanoid.com/articles/tcpdump.html
-
+and
+here http://www.tcpdump.org/manpages/pcap-filter.7.html
